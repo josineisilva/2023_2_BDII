@@ -1,0 +1,7 @@
+CREATE TABLE alunolog (
+                      data       TIMESTAMP,
+                      usuario    NAME,
+                      operacao   CHAR(1),
+                      matricula  INTEGER,
+                      nome       CHAR(15)
+                      );
